@@ -1,0 +1,43 @@
+CRITICAL - 2022-01-26 01:24:27 --> Call to a member function getListPegawai() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->index()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-26 01:37:09 --> Argument 1 passed to CodeIgniter\Pager\Pager::makeLinks() must be of the type int, string given, called in D:\Project\Personal\ortn-brin\app\Views\pegawai.php on line 57
+#0 D:\Project\Personal\ortn-brin\app\Views\pegawai.php(57): CodeIgniter\Pager\Pager->makeLinks('group1', 'material_pager')
+#1 D:\Project\Personal\ortn-brin\system\View\View.php(210): include('D:\\Project\\Pers...')
+#2 D:\Project\Personal\ortn-brin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project\Personal\ortn-brin\system\Common.php(1089): CodeIgniter\View\View->render('pegawai', Array, true)
+#4 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(19): view('pegawai', Array)
+#5 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->index()
+#6 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#10 {main}
+CRITICAL - 2022-01-26 02:53:21 --> Too few arguments to function CodeIgniter\Router\RouteCollection::add(), 1 passed in D:\Project\Personal\ortn-brin\app\Config\Routes.php on line 35 and at least 2 expected
+#0 D:\Project\Personal\ortn-brin\app\Config\Routes.php(35): CodeIgniter\Router\RouteCollection->add('pegawai/(:num)')
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(706): require('D:\\Project\\Pers...')
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#6 {main}
+CRITICAL - 2022-01-26 03:24:53 --> Call to undefined method CodeIgniter\Pager\PagerRenderer::getPrev()
+#0 D:\Project\Personal\ortn-brin\system\View\View.php(210): include()
+#1 D:\Project\Personal\ortn-brin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Project\Personal\ortn-brin\system\Pager\Pager.php(125): CodeIgniter\View\View->render('App\\Views\\layou...')
+#3 D:\Project\Personal\ortn-brin\system\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('group1', 'material_pager')
+#4 D:\Project\Personal\ortn-brin\app\Views\pegawai.php(57): CodeIgniter\Pager\Pager->links('group1', 'material_pager')
+#5 D:\Project\Personal\ortn-brin\system\View\View.php(210): include('D:\\Project\\Pers...')
+#6 D:\Project\Personal\ortn-brin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\Project\Personal\ortn-brin\system\Common.php(1089): CodeIgniter\View\View->render('pegawai', Array, true)
+#8 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(22): view('pegawai', Array)
+#9 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->index('4')
+#10 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#11 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#14 {main}

@@ -1,0 +1,188 @@
+CRITICAL - 2022-01-10 01:47:18 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 01:47:22 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 01:47:24 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 01:47:26 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 01:48:14 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 01:48:33 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 01:49:28 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 01:53:30 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(803): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 01:53:32 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(803): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 01:54:34 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(803): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 01:54:35 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(803): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 02:04:06 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 02:07:05 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 02:08:34 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 02:08:37 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 02:08:52 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 02:09:28 --> Call to a member function set() on null
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-10 02:10:58 --> Call to undefined function App\Libraries\get_instance()
+#0 D:\Project\Personal\ortn-brin\app\Controllers\BaseController.php(55): App\Libraries\Template->__construct()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(803): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#6 {main}
+CRITICAL - 2022-01-10 02:12:49 --> Call to undefined function App\Libraries\get_instance()
+#0 D:\Project\Personal\ortn-brin\app\Controllers\BaseController.php(55): App\Libraries\Template->__construct()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(803): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#6 {main}
+CRITICAL - 2022-01-10 02:13:11 --> Call to a member function view() on null
+#0 D:\Project\Personal\ortn-brin\app\Controllers\BaseController.php(59): App\Libraries\Template->load('metronic', 'contents', 'home', Array)
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(803): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#3 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#6 {main}
+CRITICAL - 2022-01-10 02:16:56 --> syntax error, unexpected '<'
+#0 D:\Project\Personal\ortn-brin\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project\\Pers...')
+#1 D:\Project\Personal\ortn-brin\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#9 {main}
+CRITICAL - 2022-01-10 02:17:27 --> Invalid file: default.php
+#0 D:\Project\Personal\ortn-brin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+#1 D:\Project\Personal\ortn-brin\system\View\View.php(226): CodeIgniter\View\View->render('default', Array, true)
+#2 D:\Project\Personal\ortn-brin\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 D:\Project\Personal\ortn-brin\app\Controllers\Home.php(9): view('welcome_message')
+#4 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#9 {main}
+CRITICAL - 2022-01-10 04:12:42 --> Invalid file: layouts/materialize.php
+#0 D:\Project\Personal\ortn-brin\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/materia...')
+#1 D:\Project\Personal\ortn-brin\system\View\View.php(226): CodeIgniter\View\View->render('layouts/materia...', Array, true)
+#2 D:\Project\Personal\ortn-brin\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#3 D:\Project\Personal\ortn-brin\app\Controllers\Home.php(9): view('welcome_message')
+#4 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#9 {main}
+CRITICAL - 2022-01-10 05:45:33 --> Call to a member function segment() on null
+#0 D:\Project\Personal\ortn-brin\system\View\View.php(210): include()
+#1 D:\Project\Personal\ortn-brin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Project\Personal\ortn-brin\system\View\View.php(226): CodeIgniter\View\View->render('layouts/materia...', Array, true)
+#3 D:\Project\Personal\ortn-brin\system\Common.php(1089): CodeIgniter\View\View->render('pegawai', Array, true)
+#4 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(9): view('pegawai')
+#5 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->index()
+#6 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#10 {main}

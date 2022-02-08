@@ -1,0 +1,12 @@
+CRITICAL - 2022-01-28 01:18:57 --> A non-numeric value encountered
+#0 D:\Project\Personal\ortn-brin\app\Views\pages\pegawai\grid.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'D:\\Project\\Pers...', 46, Array)
+#1 D:\Project\Personal\ortn-brin\system\View\View.php(210): include('D:\\Project\\Pers...')
+#2 D:\Project\Personal\ortn-brin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project\Personal\ortn-brin\system\Common.php(1089): CodeIgniter\View\View->render('pages/pegawai/g...', Array, true)
+#4 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(22): view('pages/pegawai/g...', Array)
+#5 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->index('4')
+#6 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#10 {main}

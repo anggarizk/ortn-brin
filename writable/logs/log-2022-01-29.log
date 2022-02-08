@@ -1,0 +1,163 @@
+CRITICAL - 2022-01-29 22:41:22 --> Class 'App\Controllers\GolonganLib' not found
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
+CRITICAL - 2022-01-29 22:42:19 --> Too few arguments to function App\Libraries\GolonganLib::getListGolongan(), 0 passed in D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php on line 38 and exactly 2 expected
+#0 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(38): App\Libraries\GolonganLib->getListGolongan()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#6 {main}
+CRITICAL - 2022-01-29 22:44:05 --> Too few arguments to function App\Libraries\GolonganLib::getListGolongan(), 0 passed in D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php on line 38 and exactly 2 expected
+#0 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(38): App\Libraries\GolonganLib->getListGolongan()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#6 {main}
+CRITICAL - 2022-01-29 22:44:26 --> Call to a member function where() on null
+#0 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(38): App\Libraries\GolonganLib->getAllGolongan()
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#3 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#6 {main}
+CRITICAL - 2022-01-29 22:45:46 --> Cannot use object of type App\Entities\Pegawai as array
+#0 D:\Project\Personal\ortn-brin\system\View\View.php(210): include()
+#1 D:\Project\Personal\ortn-brin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Project\Personal\ortn-brin\system\Common.php(1089): CodeIgniter\View\View->render('pages/pegawai/f...', Array, true)
+#3 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(42): view('pages/pegawai/f...', Array)
+#4 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#5 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#6 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#9 {main}
+CRITICAL - 2022-01-29 22:46:07 --> Cannot use object of type App\Entities\Pegawai as array
+#0 D:\Project\Personal\ortn-brin\system\View\View.php(210): include()
+#1 D:\Project\Personal\ortn-brin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Project\Personal\ortn-brin\system\Common.php(1089): CodeIgniter\View\View->render('pages/pegawai/f...', Array, true)
+#3 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(42): view('pages/pegawai/f...', Array)
+#4 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#5 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#6 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#9 {main}
+CRITICAL - 2022-01-29 22:46:48 --> Call to undefined method App\Models\GolonganModel::getRow
+#0 D:\Project\Personal\ortn-brin\app\Libraries\GolonganLib.php(27): CodeIgniter\Model->__call('getRow', Array)
+#1 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(38): App\Libraries\GolonganLib->getAllGolongan()
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#3 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#4 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#7 {main}
+CRITICAL - 2022-01-29 22:47:38 --> Call to undefined method App\Models\GolonganModel::getResult
+#0 D:\Project\Personal\ortn-brin\app\Libraries\GolonganLib.php(27): CodeIgniter\Model->__call('getResult', Array)
+#1 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(38): App\Libraries\GolonganLib->getAllGolongan()
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#3 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#4 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#7 {main}
+CRITICAL - 2022-01-29 22:48:41 --> Call to undefined method App\Models\GolonganModel::getRow
+#0 D:\Project\Personal\ortn-brin\app\Libraries\GolonganLib.php(27): CodeIgniter\Model->__call('getRow', Array)
+#1 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(38): App\Libraries\GolonganLib->getAllGolongan()
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#3 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#4 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#7 {main}
+CRITICAL - 2022-01-29 22:48:44 --> Call to undefined method App\Models\GolonganModel::getRow
+#0 D:\Project\Personal\ortn-brin\app\Libraries\GolonganLib.php(27): CodeIgniter\Model->__call('getRow', Array)
+#1 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(38): App\Libraries\GolonganLib->getAllGolongan()
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#3 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#4 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#7 {main}
+CRITICAL - 2022-01-29 22:50:51 --> Call to undefined method App\Models\GolonganModel::getRow
+#0 D:\Project\Personal\ortn-brin\app\Libraries\GolonganLib.php(27): CodeIgniter\Model->__call('getRow', Array)
+#1 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(38): App\Libraries\GolonganLib->getAllGolongan()
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#3 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#4 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#7 {main}
+CRITICAL - 2022-01-29 22:52:57 --> Cannot use object of type App\Entities\Pegawai as array
+#0 D:\Project\Personal\ortn-brin\system\View\View.php(210): include()
+#1 D:\Project\Personal\ortn-brin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Project\Personal\ortn-brin\system\Common.php(1089): CodeIgniter\View\View->render('pages/pegawai/f...', Array, true)
+#3 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(42): view('pages/pegawai/f...', Array)
+#4 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#5 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#6 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#9 {main}
+CRITICAL - 2022-01-29 22:53:36 --> Invalid argument supplied for foreach()
+#0 D:\Project\Personal\ortn-brin\app\Views\pages\pegawai\form.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Project\\Pers...', 28, Array)
+#1 D:\Project\Personal\ortn-brin\system\View\View.php(210): include('D:\\Project\\Pers...')
+#2 D:\Project\Personal\ortn-brin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project\Personal\ortn-brin\system\Common.php(1089): CodeIgniter\View\View->render('pages/pegawai/f...', Array, true)
+#4 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(42): view('pages/pegawai/f...', Array)
+#5 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#6 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#10 {main}
+CRITICAL - 2022-01-29 22:54:03 --> Invalid argument supplied for foreach()
+#0 D:\Project\Personal\ortn-brin\app\Views\pages\pegawai\form.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Project\\Pers...', 28, Array)
+#1 D:\Project\Personal\ortn-brin\system\View\View.php(210): include('D:\\Project\\Pers...')
+#2 D:\Project\Personal\ortn-brin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project\Personal\ortn-brin\system\Common.php(1089): CodeIgniter\View\View->render('pages/pegawai/f...', Array, true)
+#4 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(42): view('pages/pegawai/f...', Array)
+#5 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#6 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#10 {main}
+CRITICAL - 2022-01-29 22:54:04 --> Invalid argument supplied for foreach()
+#0 D:\Project\Personal\ortn-brin\app\Views\pages\pegawai\form.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Project\\Pers...', 28, Array)
+#1 D:\Project\Personal\ortn-brin\system\View\View.php(210): include('D:\\Project\\Pers...')
+#2 D:\Project\Personal\ortn-brin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Project\Personal\ortn-brin\system\Common.php(1089): CodeIgniter\View\View->render('pages/pegawai/f...', Array, true)
+#4 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(42): view('pages/pegawai/f...', Array)
+#5 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#6 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#7 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#10 {main}
+CRITICAL - 2022-01-29 23:19:38 --> Cannot use object of type mysqli as array
+#0 D:\Project\Personal\ortn-brin\system\View\View.php(210): include()
+#1 D:\Project\Personal\ortn-brin\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Project\Personal\ortn-brin\system\Common.php(1089): CodeIgniter\View\View->render('pages/pegawai/f...', Array, true)
+#3 D:\Project\Personal\ortn-brin\app\Controllers\Pegawai.php(42): view('pages/pegawai/f...', Array)
+#4 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#5 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#6 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#9 {main}
+CRITICAL - 2022-01-29 23:31:52 --> Undefined class constant 'Read'
+#0 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(825): App\Controllers\Pegawai->view('17')
+#1 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pegawai))
+#2 D:\Project\Personal\ortn-brin\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Project\Personal\ortn-brin\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Project\Personal\ortn-brin\system\Commands\Server\rewrite.php(43): require_once('D:\\Project\\Pers...')
+#5 {main}
